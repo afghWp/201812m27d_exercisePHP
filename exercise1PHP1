@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+
+<head>
+	<meta charset="utf-8"/>
+</head>
+
+
+<body>
+
+<?php
+	
+	
+	$imie = "To ja";
+	echo $imie;
+	
+	$liczba = 100;
+	echo "____",$liczba * 2;
+	
+	echo "Witaj $imie na stronie                     x", $imie;
+    print( "Witaj $imie na stronie                     x" );
+	
+	//<? 
+	
+	$imie = "Ala";
+	$liczba = 123.1234;
+
+	echo "to jest tekst $imie"; //wypisze to jest tekst Ala -bez nadmiarowych spacji
+	echo 'to jest tekst $imie'; //wypisze to jest tekst $imie -bo '' sa sliniejsze niz "" 
+	echo ' to jest "tekst w cydzysłowiu" a to bez '; //tak mozemy pokazac zank cydzysłowu
+	echo '<img src="ja.jpg"/>'; //tak możemy podać komendy HTML by pokazalo obrazek
+	
+	$zdjecie = '<img src="ja.jpg"/>';
+	echo $zdjecie.$liczba.$zdjecie.$zdjecie.$liczba.$zdjecie."jakis napis".$zdjecie; //tu mamy konkatenacje-czyli laczenie napisow
+
+	
+?> 
+
+
+</body>
+
+
+</html>
