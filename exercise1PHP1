@@ -9,7 +9,7 @@
 <body>
 
 <?php
-	
+	//z kursu Mirosława Zelenta Programowanie PHP czesc 1
 	
 	$imie = "To ja";
 	echo $imie;
