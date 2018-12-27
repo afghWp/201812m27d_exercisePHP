@@ -8,17 +8,20 @@
 
 
 <body>
-
-	<h1> Zamowienie ON-LINE </h1>
-	
-	podaj ilość pączków ( cena po 0,99 zł za sztukę )
-	<input type = "text" />
-	
-	<br>
-	
-	podaj ilość grzebieni ( cena po 1,23 zł za sztukę )
-	<input type = "text" />
-	<br>
+	<form>
+		<h1> Zamowienie ON-LINE </h1>
+		
+		podaj ilość pączków ( cena po 0,99 zł za sztukę )
+		<input type = "text" />
+		
+		<br>
+		
+		podaj ilość grzebieni ( cena po 1,23 zł za sztukę )
+		<input type = "text" />
+		<br>
+		
+		<input type = "submit" value = "Prześlij zamówienie" />
+	</form>
 	
 <?php
 	
