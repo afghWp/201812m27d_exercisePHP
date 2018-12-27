@@ -17,7 +17,8 @@
 	<br>
 	
 	podaj ilość grzebieni ( cena po 1,23 zł za sztukę )
-	
+	<input type = "text" />
+	<br>
 	
 <?php
 	
