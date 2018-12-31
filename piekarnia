@@ -1,37 +1,26 @@
 <!DOCTYPE HTML>
 <html lang="pl">
-
 <head>
 	<meta charset="utf-8"/>
 	<title> Piekarnia </title>
 </head>
 
-
 <body>
 	<form action = "orderZamowienie.php" method="post">
 		<h1> Zamowienie ON-LINE </h1>
 		
-		podaj ilość pączków ( cena po 0,99 zł za sztukę )
-		<input type = "text" name="pączki"/>
+		podaj ilość pączków ( cena po 0,99 zł za sztukę ) 
+		<input type = "text" name="i_p"/>
+		<br/>
+		<br/>
 		
-		<br>
-		
-		podaj ilość grzebieni ( cena po 1,23 zł za sztukę )
-		<input type = "text" name="grzebienie"/>
-		<br>
+		podaj ilość grzebieni ( cena po 1,23 zł za sztukę ) 
+		<input type = "text" name="i_g"/>
+		<br/>
+		<br/>
 		
 		<input type = "submit" value = "Prześlij zamówienie" />
 	</form>
-	
-<?php
-	
-	
-
-	
-?> 
-
 
 </body>
-
-
 </html>
